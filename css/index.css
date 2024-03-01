@@ -7,14 +7,10 @@ ul {
     width: auto;
 }
 
-#movie_table, #movie_table th, #movie_table td {
-    border: 1px solid black;
-    border-collapse: collapse;
-}
 
 #movie_table {
     margin: 0 12%;
-    width: 76%;
+    width: auto;
 }
 
 #movie_table th {
@@ -22,14 +18,36 @@ ul {
     padding: 15px 7px;
 }
 
-.movie_image {
-    width: 80px;
-    height: auto;
+.movie_td {
+    display: inline-block;
+    border: rgba(87, 87, 87, 0.59) 1px solid;
+    border-radius: 10px;
+    text-align: left;
+    width: 40%;
+    margin: 15px;
     padding: 10px;
 }
 
-.movie_name, .movie_link {
-    width: 100px;
+.movie_image {
+    width: 140px;
+    height: auto;
+    padding-left: 15px;
+}
+
+.movie_ranking {
+    position: relative;
+    top: 20px;
+    font-size: 23px;
+    font-weight: bold;
+    background: black;
+    color: white;
+    padding: 2px 12px;
+    border-radius: 20px;
+}
+
+.movie_name {
+    font-size: 20px;
+    font-weight: bold;
 }
 
 #guest_name {
