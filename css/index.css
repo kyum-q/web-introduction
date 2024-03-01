@@ -1,0 +1,55 @@
+body {
+    text-align: center;
+}
+
+ul {
+    display: inline-block;
+    width: auto;
+}
+
+#movie_table, #movie_table th, #movie_table td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+#movie_table {
+    margin: 0 12%;
+    width: 76%;
+}
+
+#movie_table th {
+    font-size: 15px;
+    padding: 15px 7px;
+}
+
+.movie_image {
+    width: 80px;
+    height: auto;
+    padding: 10px;
+}
+
+.movie_name, .movie_link {
+    width: 100px;
+}
+
+#guest_name {
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.movie_checkbox {
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.movie_checkbox:first-child {
+    margin-left: 0;
+}
+
+.form_button {
+    margin-top: 10px;
+    width: 70px;
+
+}
